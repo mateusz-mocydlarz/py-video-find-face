@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-video-find-face"
+version = "0.1.0"
+description = ""
+authors = ["Matuesz Mocydlarz <mateusz.mocydlarz@bitmm.eu>"]
+readme = "README.md"
+packages = [{include = "py_video_find_face"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
